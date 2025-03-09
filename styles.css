@@ -1,0 +1,164 @@
+ .navbar-custom {
+            background-color:rgb(36, 84, 135);
+        }
+        .navbar-custom .navbar-brand, 
+        .navbar-custom .nav-link {
+            color: white !important;
+            font-weight: 5px;
+        }
+        .search-bar {
+            width: 700px;
+            margin-left:20px;
+            display: flex;
+            align-items: center;
+            margin: auto;
+        }
+        .search-bar input {
+            width: 100%;
+            height:50px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+        .search-btn {
+            background-color: white;
+            border: none;
+            padding: 6px;
+            border-radius: 5px;
+            margin:10px;
+        }
+       .navbar-brand{
+        font-size:xx-large;
+        font-weight:bolder;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+       }
+       .user-icon {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-transform: uppercase;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solidrgb(41, 90, 142);
+}
+
+.dropdown-menu {
+    min-width: 150px;
+}
+
+.dropdown-item:hover {
+    background-color: #007bff;
+    color: white;
+}
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color:rgb(53, 99, 149);
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-transform: uppercase;
+    margin-left: 15px;
+    cursor: pointer;
+    border: 2px solidrgb(62, 108, 158);
+}
+.container {
+            width: 80%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 0px;
+            justify-content: center;
+        }
+        .product-card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+            transition: 0.3s ease-in-out;
+            width: 220px; /* Adjusted width */
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-image {
+            width: 160px; /* Increased image size */
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .product-details {
+            margin-top: 8px;
+            text-align: left;
+            padding: 0 8px;
+        }
+        .product-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 5px 0;
+            color: #333;
+        }
+        .product-description {
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 5px;
+        }
+        .product-price {
+            color: #e44d26;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .delivery-date {
+            font-size: 12px;
+            color: #28a745;
+            margin-bottom: 5px;
+        }
+        .second-navbar {
+    background-color: white !important; /* White background */
+    display: flex;
+    justify-content: center;
+}
+.second-navbar .navbar-nav {
+    width: 100%;
+    display: flex;
+    padding:10px;
+    justify-content: center; /* Center the nav items */
+}
+
+.second-navbar .nav-link {
+    color:grey !important; /* Blue font color */
+    padding: 10px 15px; /* Add padding */
+    font-weight: bold;
+}
+
+.second-navbar .nav-link:hover {
+    color: black !important; /* Slightly darker blue on hover */
+}
